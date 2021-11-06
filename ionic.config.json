@@ -1,0 +1,7 @@
+{
+  "name": "latacunga",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
