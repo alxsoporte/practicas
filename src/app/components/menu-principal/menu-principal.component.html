@@ -6,17 +6,61 @@
   </ion-header>
   <ion-content>
     <ion-list>
-      <ion-item>Atracciones Turísticas</ion-item>
-      <ion-item>Hospedaje</ion-item>
-      <ion-item>Restaurantes</ion-item>
-      <ion-item>Recreación</ion-item>
-      <ion-item>Agencia de Viajes</ion-item>
-      <ion-item>Servicios Complementarios</ion-item>
-      <ion-item>Ruta</ion-item>
-      <ion-item>Tour Virtual</ion-item>
-      <ion-item>Eventos</ion-item>
-      <ion-item>Transporte</ion-item>
-      <ion-item>Favoritos</ion-item>
+      <ion-menu-toggle auto-hide="true">
+        <ion-item [routerLink]="['lista']">
+          <ion-icon slot="start" name="golf"></ion-icon>Atracciones Turísticas
+        </ion-item>
+      </ion-menu-toggle>
+      <ion-menu-toggle auto-hide="true">
+        <ion-item>
+          <ion-icon slot="start" name="bed"></ion-icon>Hospedaje
+        </ion-item>
+      </ion-menu-toggle>
+      <ion-menu-toggle auto-hide="true">
+        <ion-item>
+          <ion-icon slot="start" name="restaurant"></ion-icon>Restaurantes
+        </ion-item>
+      </ion-menu-toggle>
+      <ion-menu-toggle auto-hide="true">
+        <ion-item>
+          <ion-icon slot="start" name="bicycle"></ion-icon>Recreación
+        </ion-item>
+      </ion-menu-toggle>
+      <ion-menu-toggle auto-hide="true">
+        <ion-item>
+          <ion-icon slot="start" name="airplane"></ion-icon>Agencia de Viajes
+        </ion-item>
+      </ion-menu-toggle>
+      <ion-menu-toggle auto-hide="true">
+        <ion-item>
+          <ion-icon slot="start" name="accessibility"></ion-icon>Servicios Complementarios
+        </ion-item>
+      </ion-menu-toggle>
+      <ion-menu-toggle auto-hide="true">
+        <ion-item>
+          <ion-icon slot="start" name="navigate"></ion-icon>Ruta
+        </ion-item>
+      </ion-menu-toggle>
+      <ion-menu-toggle auto-hide="true">
+        <ion-item>
+          <ion-icon slot="start" name="map"></ion-icon>Tour Virtual
+        </ion-item>
+      </ion-menu-toggle>
+      <ion-menu-toggle auto-hide="true">
+        <ion-item>
+          <ion-icon slot="start" name="happy"></ion-icon>Eventos
+        </ion-item>
+      </ion-menu-toggle>
+      <ion-menu-toggle auto-hide="true">
+        <ion-item>
+          <ion-icon slot="start" name="bus"></ion-icon>Transporte
+        </ion-item>
+      </ion-menu-toggle>
+      <ion-menu-toggle auto-hide="true">
+        <ion-item>
+          <ion-icon slot="start" name="heart"></ion-icon>Favoritos
+        </ion-item>
+      </ion-menu-toggle>
     </ion-list>
   </ion-content>
 </ion-menu>
