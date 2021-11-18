@@ -6,11 +6,11 @@ const routes: Routes = [
     path: 'home',
     loadChildren: () => import('./home/home.module').then( m => m.HomePageModule)
   },
-  {
+/*   {
     path: '',
     redirectTo: 'home',
     pathMatch: 'full'
-  },
+  }, */
   {
     path: 'lista',
     loadChildren: () => import('./lista/lista.module').then( m => m.ListaPageModule)
@@ -19,6 +19,11 @@ const routes: Routes = [
     path: 'detalle',
     loadChildren: () => import('./detalle/detalle.module').then( m => m.DetallePageModule)
   },
+  {
+    path: 'splash',
+    loadChildren: () => import('./splash/splash.module').then( m => m.SplashPageModule)
+  },
+
 ];
 
 @NgModule({
